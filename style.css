@@ -25,6 +25,7 @@ margin-top: 2rem;
 main{
   width: 100%;
   margin-top: 2rem;
+
   
 }
 
@@ -132,8 +133,14 @@ font-weight: bold;
 
   #topgrid{
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fill,326px );
       grid-gap: 1rem;
+      padding: 1rem;
+      width: 100%;
+      max-width: 1400px ;
+      justify-content: center;
+    
+      
       
     
   }
@@ -142,25 +149,15 @@ font-weight: bold;
 
   .social{
     background-color: blue;
-    height: 200px;
+    height: 216px;
   }
 
-  .grid > div {
-    background: black;
-    padding: 1rem;
-  }
-  
-  .grid > div::before {
-    content: "";
-    padding-bottom: 100%;
-    display: block;
-  }
 
   @media screen and (min-width:768px){
     .header-content{
       flex-direction: row;
      justify-content: space-between;
-     max-width: 1300px;
+     max-width: 1400px;
 
     }
 
@@ -175,6 +172,12 @@ font-weight: bold;
 
     .switchgroup p{
       margin-right: 1rem;
+    }
+
+    main{
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
    
