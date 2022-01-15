@@ -22,8 +22,14 @@ margin-top: 2rem;
 
 }
 
+.header-content{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
 .header-words{
-    width: 90%;
+   
     border-bottom: 1px solid #63687D;
     padding-bottom: 1rem;
 }
@@ -47,7 +53,6 @@ font-weight: bold;
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    width: 90%;
     margin-top: 1rem;
 }
 
@@ -121,4 +126,26 @@ font-weight: bold;
 
   #topgrid{
       display: grid;
+  }
+
+  @media screen and (min-width:768px){
+    .header-content{
+      flex-direction: row;
+     justify-content: space-between;
+     max-width: 1300px;
+
+    }
+
+    
+    .header-words{
+      border-bottom: none;
+    }
+
+    .switchgroup{
+      justify-content: flex-end;
+    }
+
+    .switchgroup p{
+      margin-right: 1rem;
+    }
   }
