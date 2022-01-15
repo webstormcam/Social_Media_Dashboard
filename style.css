@@ -22,6 +22,11 @@ margin-top: 2rem;
 
 }
 
+main{
+  width: 100%;
+  
+}
+
 .header-content{
   display: flex;
   flex-direction: column;
@@ -126,6 +131,28 @@ font-weight: bold;
 
   #topgrid{
       display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-gap: 1rem;
+      
+    
+  }
+
+
+
+  .social{
+    background-color: blue;
+    height: 200px;
+  }
+
+  .grid > div {
+    background: black;
+    padding: 1rem;
+  }
+  
+  .grid > div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
   }
 
   @media screen and (min-width:768px){
@@ -147,5 +174,9 @@ font-weight: bold;
 
     .switchgroup p{
       margin-right: 1rem;
+    }
+
+    main{
+    
     }
   }
