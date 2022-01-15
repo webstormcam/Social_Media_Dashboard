@@ -118,3 +118,7 @@ font-weight: bold;
     border-radius: 50%;
   }
 
+
+  #topgrid{
+      display: grid;
+  }
