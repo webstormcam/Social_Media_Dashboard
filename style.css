@@ -263,5 +263,10 @@ font-weight: bold;
       justify-content: center;
     }
 
+    #topgrid{
+      grid-template-columns: repeat(auto-fill,255px );  
+      grid-gap: 30px;
+  }
+
    
   }
