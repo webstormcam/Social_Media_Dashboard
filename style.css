@@ -148,8 +148,71 @@ font-weight: bold;
 
 
   .social{
-    background-color: blue;
+    background-color: #9797973f;
     height: 216px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+
+  .top-image{
+    margin-right: 0.5rem;
+  }
+
+  .username{
+    font-weight: bold;
+    font-size: 12px;
+    color: #63687D;
+  }
+
+
+  .numbers{
+    text-align: center;
+  }
+
+  .social-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+   
+  }
+
+  .facebook-top{
+    border-top: 5px solid #178FF5;
+  }
+
+  .followers-num{
+    font-size: 56px;
+    font-weight: bold;
+  }
+
+  .followers-word{
+    color: #63687D;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .today{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .arrow-up{
+    margin-right: 0.3rem;
+  }
+
+  .stat-green{
+    color: #1EB589;
+    font-weight: bold;
+    font-size: 12px;
   }
 
 
