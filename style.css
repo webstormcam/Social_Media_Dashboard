@@ -185,6 +185,11 @@ font-weight: bold;
     border-top: 5px solid #178FF5;
   }
 
+
+.twitter-top{
+  border-top: 5px solid #1DA1F2;
+}
+
   .followers-num{
     font-size: 56px;
     font-weight: bold;
