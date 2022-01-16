@@ -148,7 +148,7 @@ font-weight: bold;
 
 
   .social{
-    background-color: #9797973f;
+    background-color: hsl(227, 47%, 96%);
     height: 216px;
     border-radius: 0.5rem;
     display: flex;
@@ -191,7 +191,7 @@ font-weight: bold;
 }
 
 .insta-top{
-  border-top: 5px solid #DF4896;
+  border-top: 5px solid rgb(223,72,150);
 }
 
 .youtube-top{
