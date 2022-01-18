@@ -245,13 +245,18 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
   }
 
   h2{
    align-self: flex-start;
-   margin-left: 2rem;
    font-size: 24px;
    max-width: 1400px;
+  }
+
+  .header-2{
+    width: 100%;
+    max-width: 1400px;
   }
 
   #grid-2{
@@ -260,6 +265,8 @@ font-weight: bold;
     max-width: 1400px;
     justify-content: center;
   }
+
+
   
 
 
