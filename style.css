@@ -35,6 +35,7 @@ main{
   display: flex;
   flex-direction: column;
   width: 90%;
+ 
 }
 
 .header-words{
@@ -258,7 +259,7 @@ font-weight: bold;
 
   .header-2{
     width: 90%;
-    max-width: 1400px;
+    max-width: 1100px;
   }
 
   #grid-2{
@@ -287,7 +288,7 @@ font-weight: bold;
     .header-content{
       flex-direction: row;
      justify-content: space-between;
-     max-width: 1400px;
+     max-width: 1100px;
 
     }
 
@@ -313,6 +314,14 @@ font-weight: bold;
     #topgrid{
       grid-template-columns: repeat(auto-fill,255px );  
       grid-gap: 30px;
+  }
+
+
+  #grid-2{
+   
+    grid-template-columns: repeat(auto-fill,255px );
+    grid-gap: 30px;
+  
   }
 
    
