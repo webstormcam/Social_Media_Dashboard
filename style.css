@@ -266,9 +266,20 @@ font-weight: bold;
     width: 100%;
     max-width: 1400px;
     justify-content: center;
+    grid-template-columns: repeat(auto-fill,326px );
+    grid-gap: 1rem;
+    padding: 1rem;
   }
 
-
+  .social-2{
+    background-color: hsl(227, 47%, 96%);
+    height: 125px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
   
 
 
