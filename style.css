@@ -285,6 +285,32 @@ font-weight: bold;
     
     align-items: center;
   }
+
+  .top{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 80%;
+margin-top: 1.5rem;
+  }
+
+  .page{
+    font-weight: bold;
+    color: #63687D;
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 1.5rem;
+  }
+
+  .bignum{
+    font-size: 32px;
+    font-weight: bold;
+  }
   
 
 
