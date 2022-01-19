@@ -12,7 +12,7 @@ toggle.addEventListener('click',function(){
     } else{
         background.style.backgroundColor ='#fff'
         for(var i = 0; i<social.length;i++){
-            social[i].style.backgroundColor ='hsl(227, 47%, 96%);'
+            social[i].style.backgroundColor ='hsl(227, 47%, 96%)'
         }
     }
 })
