@@ -321,6 +321,12 @@ margin-top: 1.5rem;
     
   }
 
+  .little-red{
+    font-size: 15px;
+    color: #DC414C ;
+    font-weight: bold;
+  }
+
   .little-stat{
     display: flex;
     flex-direction: row;
