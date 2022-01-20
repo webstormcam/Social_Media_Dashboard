@@ -231,6 +231,7 @@ font-weight: bold;
 
   .arrow{
     margin-right: 0.3rem;
+    width: 0.7rem;
   }
 
   .stat-green{
@@ -303,6 +304,7 @@ margin-top: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
     margin-top: 1.5rem;
   }
@@ -310,6 +312,19 @@ margin-top: 1.5rem;
   .bignum{
     font-size: 32px;
     font-weight: bold;
+  }
+
+  .little-green{
+    font-size: 15px;
+    color: #1EB589 ;
+    font-weight: bold;
+    
+  }
+
+  .little-stat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   
 
