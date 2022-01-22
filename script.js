@@ -3,6 +3,7 @@ let toggle = document.getElementById('toggle');
 let social = document.getElementsByClassName("social")
 let white = document.getElementsByClassName('white')
  let cat = document.getElementsByClassName('switch-grey')
+let styleElem = document.head.appendChild(document.createElement('style'))
 
 toggle.addEventListener('click',function(){
 
@@ -18,7 +19,7 @@ toggle.addEventListener('click',function(){
        for(var i =0; i<cat.length;i++){
            cat[i].style.color ='#8C98C6'
        }
-
+ styleElem.innerHTML = '.social::hover{background-color:#8C98C6;}'
       
 
 
@@ -33,9 +34,13 @@ toggle.addEventListener('click',function(){
         }
 
         for(var i=0;i<cat.length;i++){
-            cat[i].style.color ='initial'
+            cat[i].style.color ='#63687D'
         }
+
+        styleElem.innerHTML = '.social::hover{background-color:#63687d38}'
 
 
     }
 })
+
+
