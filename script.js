@@ -2,7 +2,7 @@ let background = document.getElementsByTagName("BODY")[0];
 let toggle = document.getElementById('toggle');
 let social = document.getElementsByClassName("social")
 let white = document.getElementsByClassName('white')
-
+ let cat = document.getElementsByClassName('switch-grey')
 
 toggle.addEventListener('click',function(){
 
@@ -15,6 +15,12 @@ toggle.addEventListener('click',function(){
            white[i].style.color ='#fff'
        }
 
+       for(var i =0; i<cat.length;i++){
+           cat[i].style.color ='#8C98C6'
+       }
+
+      
+
 
     } else{
         background.style.backgroundColor ='#fff'
@@ -24,6 +30,10 @@ toggle.addEventListener('click',function(){
 
         for(var i = 0; i<white.length;i++){
             white[i].style.color ='initial'
+        }
+
+        for(var i=0;i<cat.length;i++){
+            cat[i].style.color ='initial'
         }
 
 
