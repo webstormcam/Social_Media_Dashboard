@@ -162,10 +162,10 @@ font-weight: bold;
     align-items: center;
   }
 
-  .social:hover{
+  /* .social:hover{
     background-color: #63687d38;
     cursor: pointer;
-  }
+  } */
 
   .top-image{
     margin-right: 0.5rem;
